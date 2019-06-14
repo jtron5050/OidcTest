@@ -1,0 +1,9 @@
+
+<div>
+  <button (click)="login()">Login</button>
+  <button (click)="logout()">Logout</button>
+  <div>
+    <span *ngIf="isAuthorized">Authorized...</span>
+  </div>
+  <router-outlet></router-outlet>
+</div>
